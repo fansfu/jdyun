@@ -33,7 +33,7 @@ inputs:
     - timer:
         parameters:
           name: config
-          cronExpression: "0 0 * * * * *"
+          cronExpression: "0 */10 * * * * *"
           enable: true
           argument: config
     - timer: #超市蓝币兑换
